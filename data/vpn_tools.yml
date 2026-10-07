@@ -13,7 +13,7 @@
   payments: "信用卡, PayPal, 比特币 (BTC), 现金 (Cash)"
   devices_limit: "10 台设备"
   authority_rating: "PCMag Editors' Choice / PrivacyGuides 推荐"
-  affiliate_link: "https://go.yourdomain.com/proton"
+  affiliate_link: "https://protonvpn.com"
   summary: "由 CERN 科学家联合创立，全平台 100% 开源。独创 Stealth 隐形协议可模拟 HTTPS 流量绕过深度包检测，具备业界罕见的真正无限流量免费节点。"
 
 - id: expressvpn
@@ -31,7 +31,7 @@
   payments: "银联 (UnionPay), 信用卡, PayPal, 加密货币"
   devices_limit: "8 台设备"
   authority_rating: "TechRadar 4.5/5 / Tom's Guide 顶级推荐"
-  affiliate_link: "https://go.yourdomain.com/express"
+  affiliate_link: "https://www.expressvpn.com"
   summary: "老牌跨国网络工具代表，自研 Lightway 协议建连速度极快。全天候维护混淆 IP 池，支持银联卡直接结算，适合需要极速跨国会议的团队。"
 
 - id: nordvpn
@@ -49,7 +49,7 @@
   payments: "信用卡, PayPal, Google Pay, 加密货币"
   devices_limit: "10 台设备"
   authority_rating: "Wired 年度推荐 / CNET 评级 4.5"
-  affiliate_link: "https://go.yourdomain.com/nord"
+  affiliate_link: "https://nordvpn.com"
   summary: "全球服务器数量超 6,000+ 台，自研 NordLynx 吞吐量极佳。集成 Meshnet 虚拟内网穿透技术与混淆节点，兼顾安全与超低流媒体延迟。"
 
 - id: surfshark
@@ -67,7 +67,7 @@
   payments: "支付宝 (Alipay), 银联, 信用卡, PayPal, Crypto"
   devices_limit: "无限设备同时连接"
   authority_rating: "CNET 2024 推荐 / TechRadar 编辑推荐"
-  affiliate_link: "https://go.yourdomain.com/surfshark"
+  affiliate_link: "https://surfshark.com"
   summary: "性价比之王。原生支持支付宝一键结算，且不限制设备登录数量。独有 NoBorders 模式可在检测到网络限制时自动匹配可用服务器列表。"
 
 - id: mullvad
@@ -85,7 +85,7 @@
   payments: "实体现金邮寄 (极客专属), 门罗币 (XMR), 比特币, 信用卡, PayPal"
   devices_limit: "5 台设备"
   authority_rating: "PrivacyGuides 终极推崇 / 极客公认隐私天花板"
-  affiliate_link: "https://go.yourdomain.com/mullvad"
+  affiliate_link: "https://mullvad.net"
   summary: "无需邮箱注册，仅通过随机 16 位数字账户登录。客户端全开源，支持实体信封寄现金与 XMR 匿名支付，为极致隐私极客而生。"
 
 - id: astrill
@@ -103,7 +103,7 @@
   payments: "信用卡, 银联, 支付宝 (部分通道), 比特币"
   devices_limit: "5 台设备"
   authority_rating: "驻华外企高管与外交人员必备口口相传"
-  affiliate_link: "https://go.yourdomain.com/astrill"
+  affiliate_link: "https://www.astrill.com"
   summary: "抗审查穿透力极为强悍，在特殊敏感时期几乎不断连。价格昂贵，但针对高丢包网络有强力的私有协议补偿，是外企与硬核商务人士的刚需工具。"
 
 - id: pia
@@ -121,7 +121,7 @@
   payments: "信用卡, PayPal, 加密货币, 亚马逊支付"
   devices_limit: "无限设备同时连接"
   authority_rating: "Tom's Guide 评级 4.0 / 开源社区成熟项目"
-  affiliate_link: "https://go.yourdomain.com/pia"
+  affiliate_link: "https://www.privateinternetaccess.com"
   summary: "经受过美国联邦法庭实际诉讼检验的真·无日志服务商。全套桌面客户端均已开源，内置 Shadowsocks 混淆跳板功能，性价比极高。"
 
 - id: ivpn
@@ -139,7 +139,7 @@
   payments: "Monero (XMR), 比特币, 现金, 信用卡, PayPal"
   devices_limit: "7 台设备 (Pro 版)"
   authority_rating: "PrivacyGuides 推荐 / 道德营销倡导者"
-  affiliate_link: "https://go.yourdomain.com/ivpn"
+  affiliate_link: "https://www.ivpn.net"
   summary: "拒绝追踪脚本与虚假促销的清流品牌。注册无需个人邮箱，直接原生集成了 V2Ray 混淆混搭 WireGuard 技术，有效抵抗审查探测。"
 
 - id: windscribe
@@ -157,7 +157,7 @@
   payments: "信用卡, PayPal, 加密货币"
   devices_limit: "无限设备同时连接"
   authority_rating: "TechRadar 4.0 / 用户口碑极高"
-  affiliate_link: "https://go.yourdomain.com/windscribe"
+  affiliate_link: "https://windscribe.com"
   summary: "拥有强大的 R.O.B.E.R.T. 广告阻断引擎，提供独家 Wstunnel 混淆技术，将所有 VPN 流量包封装在常规 WebSocket 流量中，抗阻断灵活性极高。"
 
 - id: cyberghost
@@ -175,5 +175,5 @@
   payments: "信用卡, PayPal, 比特币"
   devices_limit: "7 台设备"
   authority_rating: "PCMag 卓越评级 / 行业老牌商"
-  affiliate_link: "https://go.yourdomain.com/cyberghost"
+  affiliate_link: "https://www.cyberghostvpn.com"
   summary: "拥有业内最长的 45 天无理由退款周期。其罗马尼亚机房专设针对 Netflix/YouTube 等流媒体专线优化，界面傻瓜友好，适合大众海外流媒体解锁。"
