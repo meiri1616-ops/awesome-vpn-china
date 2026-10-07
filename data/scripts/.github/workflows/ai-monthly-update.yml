@@ -1,0 +1,40 @@
+name: Monthly AI Maintenance
+
+on:
+  schedule:
+    # 每月 1 号凌晨 00:00 (UTC) 自动执行
+    - cron: '0 0 1 * *'
+  workflow_dispatch: # 支持网页后台手动一键测试触发
+
+jobs:
+  auto-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests pyyaml
+
+      - name: Run Build Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python scripts/auto_update.py
+
+      - name: Commit & Push Changes Directly
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: monthly auto-update by Gemini" && git push)
