@@ -33,27 +33,22 @@ def get_latest_github_release(repo_name):
 
 def fetch_gemini_monthly_brief(current_date, singbox_ver, clash_ver):
     api_key = os.getenv("GEMINI_API_KEY")
-    default_text = "本月跨国网络链路运行稳定，建议保持开源客户端内核更新，并常备 Stealth 混淆协议节点以应对偶发性 DPI 探测。"
+    default_text = "本月跨国网络链路运行平稳，建议保持开源客户端内核更新，并常备具备混淆伪装特征的专有协议以应对临时探测。"
     
     if not api_key:
-        print("未检测到 GEMINI_API_KEY，使用保底文案。")
         return default_text
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent?key={api_key}"
     headers = {"Content-Type": "application/json"}
     
     prompt = (
-        f"今天是 {current_date}。开源客户端最新版本：Sing-box 为 {singbox_ver}，Clash Verge Rev 为 {clash_ver}。"
-        "请作为长期研究跨境网络的资深工程师，写一段 80~120 字的月度态势通报。"
-        "受众为中国大陆的开发者、跨国外企员工与出海游民。重点提醒：当前如何使用具备抗探测混淆能力的工具（如 Proton Stealth、自建 Reality）规避突发断连，并保持客户端内核更新。"
-        "语言风格：客观中立、极客硬核、全中文、无废话，直接输出正文内容。"
+        f"今天是 {current_date}。最新版本：Sing-box 为 {singbox_ver}，Clash Verge Rev 为 {clash_ver}。"
+        "请作为长期研究跨境网络的网络安全工程师，写一段 80~120 字的月度跨境网络态势简报。"
+        "面向中国出海与科研用户，重点提醒如何利用抗审查协议规避网络波动，并提醒更新客户端。"
+        "全中文，客观中立，无废话，直接输出正文。"
     )
     
-    payload = {
-        "contents": [{
-            "parts": [{"text": prompt}]
-        }]
-    }
+    payload = {"contents": [{"parts": [{"text": prompt}]}]}
 
     try:
         res = requests.post(url, json=payload, headers=headers, timeout=20)
@@ -61,12 +56,9 @@ def fetch_gemini_monthly_brief(current_date, singbox_ver, clash_ver):
             data = res.json()
             candidates = data.get("candidates", [])
             if candidates:
-                text = candidates[0]["content"]["parts"][0]["text"]
-                return text.strip()
-        else:
-            print(f"Gemini API 错误 (状态码 {res.status_code}): {res.text}")
+                return candidates[0]["content"]["parts"][0]["text"].strip()
     except Exception as e:
-        print(f"请求 Gemini 发生异常: {e}")
+        print(f"Gemini API 异常: {e}")
         
     return default_text
 
@@ -112,6 +104,7 @@ def build_readme():
         cards.append(card)
     cards_content = "\n\n".join(cards)
 
+    # 替换为专注 awesomevpnchina 的纯净模板
     readme_template = f"""<div align="center">
 
 # 🌐 跨境网络与科学上网全景指南 (TOP 10 天梯榜)
@@ -120,8 +113,9 @@ def build_readme():
 > 专为中国大陆出海从业者、跨境远程办公、海外学者及极客量身打造
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Telegram Channel](https://img.shields.io/badge/Telegram-实时突发通报-2CA5E0?logo=telegram&logoColor=white)](https://t.me/toutiaozhongwencn)
-[![English News](https://img.shields.io/badge/Telegram-Global_Brief-blue?logo=telegram&logoColor=white)](https://t.me/dailytopstories)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-跨境网络情报局-2CA5E0?logo=telegram&logoColor=white)](https://t.me/awesomevpnchina)
+
+[💬 订阅官方 Telegram 频道 (实时节点失效/官方大促通报)](https://t.me/awesomevpnchina)
 
 </div>
 
@@ -129,9 +123,8 @@ def build_readme():
 
 ### 📢 跨境阻断突发情报与应急通道
 > ⚠️ **特殊时期网络提醒**：遭遇重大网络波动时，建议优先开启 **Proton Stealth / Astrill StealthVPN** 等具备高阶伪装特征的专有协议。  
-> 实时断连通报、备用线路与全球深度资讯，请通过 Telegram 订阅：
-> * 深度中文洞察与应急广播：👉 **[@toutiaozhongwencn](https://t.me/toutiaozhongwencn)**
-> * 国际前沿资讯英文特报：👉 **[@dailytopstories](https://t.me/dailytopstories)**
+> 突发断连通报、官方限时特惠、客户端更新及技术交流，请加入唯一官方 Telegram 广播站：
+> 👉 **[@awesomevpnchina](https://t.me/awesomevpnchina) (跨境网络与极客情报局)**
 
 ---
 
@@ -172,7 +165,7 @@ def build_readme():
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_template)
     
-    print("README.md 重新构建完成！Gemini AI 摘要已注入。")
+    print("README.md 重新构建完成！已全面绑定 @awesomevpnchina。")
 
 if __name__ == "__main__":
     build_readme()
