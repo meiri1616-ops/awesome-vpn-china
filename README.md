@@ -6,8 +6,9 @@
 > 专为中国大陆出海从业者、跨境远程办公、海外学者及极客量身打造
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Telegram Channel](https://img.shields.io/badge/Telegram-实时突发通报-2CA5E0?logo=telegram&logoColor=white)](https://t.me/toutiaozhongwencn)
-[![English News](https://img.shields.io/badge/Telegram-Global_Brief-blue?logo=telegram&logoColor=white)](https://t.me/dailytopstories)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-跨境网络情报局-2CA5E0?logo=telegram&logoColor=white)](https://t.me/awesomevpnchina)
+
+[💬 订阅官方 Telegram 频道 (实时节点失效/官方大促通报)](https://t.me/awesomevpnchina)
 
 </div>
 
@@ -15,16 +16,13 @@
 
 ### 📢 跨境阻断突发情报与应急通道
 > ⚠️ **特殊时期网络提醒**：遭遇重大网络波动时，建议优先开启 **Proton Stealth / Astrill StealthVPN** 等具备高阶伪装特征的专有协议。  
-> 实时断连通报、备用线路与全球深度资讯，请通过 Telegram 订阅：
-> * 深度中文洞察与应急广播：👉 **[@toutiaozhongwencn](https://t.me/toutiaozhongwencn)**
-> * 国际前沿资讯英文特报：👉 **[@dailytopstories](https://t.me/dailytopstories)**
+> 突发断连通报、官方限时特惠、客户端更新及技术交流，请加入唯一官方 Telegram 广播站：
+> 👉 **[@awesomevpnchina](https://t.me/awesomevpnchina) (跨境网络与极客情报局)**
 
 ---
 
 <!-- AI_MONTHLY_START -->
-> 🕒 **本月态势通报 (2026-10-07)**：2026年10月态势：跨境网络封锁呈现常态化智能对抗特征。近期骨干网针对TLS指纹与SNI特征的探测频次显著上升，传统直连或浅层混淆协议瞬时阻断率居高不下。
-
-应对策略：建议全面启用抗探测混淆方案。协议层推荐部署基于TLS 1.3的VLESS-Reality或具备多态混淆能力的Proton Stealth，以剥离代理特征；客户端内核务必保持最新，Sing-box（v1.14.2）与Clash Verge Rev（v2.5.7）已针对新型阻断优化了底层重连与回退机制。开发者与出海群体应建立多路由热备与自动化更新预案，确保复杂网络环境下的链路韧性。  
+> 🕒 **本月态势通报 (2026-10-07)**：2026年10月跨境网络波动加剧。针对严格的深度包检测（DPI），建议全面启用VLESS-Reality、Hysteria 2或TUIC v5等抗审查协议，以应对高强度干扰。为修复已知安全漏洞并提升弱网环境下的传输效率，请出海与科研用户立即将客户端更新至最新版（Sing-box v1.14.2及Clash Verge Rev v2.5.7）。保持核心组件与订阅链路同步，是维持跨境通信稳定性的关键。  
 > *当前核心内核版本*：`Sing-box: v1.14.2` | `Clash Verge Rev: v2.5.7`
 <!-- AI_MONTHLY_END -->
 
@@ -34,7 +32,7 @@
 
 | 综合排名 / 工具 | 综合评分 | 权威评级背书 | 专有协议 / 混淆机制 | 参考价格 | 支持付款方式 | 官网通道 |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| 🥇 **Mullvad VPN** | **93.0** | PrivacyGuides 终极推崇 / 极客公认隐私天花板 | `WireGuard / OpenVPN (支持 Shadowsocks/Bridge 双跳)` | 固定 €5/月 (约 $5.4/月，无长期绑定套路) | 现金信封, 门罗币 (XMR), 比特币, 信用卡, PayPal | [Mullvad VPN 官网](https://go.yourdomain.com/mullvad) |
+| 🥇 **Mullvad VPN** | **93.0** | PrivacyGuides 终极推崇 / 极客公认隐私天花板 | `WireGuard / OpenVPN (支持 Shadowsocks/Bridge 双跳)` | 固定 €5/月 (约 $5.4/月，无长期绑定套路) | 实体现金邮寄 (极客专属), 门罗币 (XMR), 比特币, 信用卡, PayPal | [Mullvad VPN 官网](https://go.yourdomain.com/mullvad) |
 | 🥈 **Proton VPN** | **92.8** | PCMag Editors' Choice / PrivacyGuides 推荐 | `Stealth (自研混淆) / WireGuard / OpenVPN` | 免费档可用 / 两年付 $4.49/月 | 信用卡, PayPal, 比特币 (BTC), 现金 (Cash) | [Proton VPN 官网](https://go.yourdomain.com/proton) |
 | 🥉 **NordVPN** | **91.5** | Wired 年度推荐 / CNET 评级 4.5 | `NordLynx (基于 WireGuard) / OpenVPN` | 两年付约 $3.39/月 | 信用卡, PayPal, Google Pay, 加密货币 | [NordVPN 官网](https://go.yourdomain.com/nord) |
 | 4️⃣ **ExpressVPN** | **91.2** | TechRadar 4.5/5 / Tom's Guide 顶级推荐 | `Lightway (自研低延迟抗抖动) / OpenVPN` | 年付约 $6.67/月 (赠送3个月) | 银联 (UnionPay), 信用卡, PayPal, 加密货币 | [ExpressVPN 官网](https://go.yourdomain.com/express) |
@@ -53,7 +51,7 @@
 
 - **法区背景与合规**：瑞典 (高透明度隐私立法) · ✅ 100% 代码开源 · Assured AB / Radically Open Security 审计
 - **协议与穿透特性**：`WireGuard / OpenVPN (支持 Shadowsocks/Bridge 双跳)`
-- **支持付款与设备**：现金信封, 门罗币 (XMR), 比特币, 信用卡, PayPal（支持最多 **5 台设备**）
+- **支持付款与设备**：实体现金邮寄 (极客专属), 门罗币 (XMR), 比特币, 信用卡, PayPal（支持最多 **5 台设备**）
 - **参考定价与方案**：固定 €5/月 (约 $5.4/月，无长期绑定套路)
 - **极客深度点评**：无需邮箱注册，仅通过随机 16 位数字账户登录。客户端全开源，支持实体信封寄现金与 XMR 匿名支付，为极致隐私极客而生。
 - 🔗 **安全官方通道**：[直达 Mullvad VPN 官网优惠 (固定 €5/月 (约 $5.4/月，无长期绑定套路))](https://go.yourdomain.com/mullvad)
