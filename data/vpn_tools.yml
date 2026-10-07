@@ -82,7 +82,7 @@
   payment_score: 9.8
   value_score: 8.5
   pricing_desc: "固定 €5/月 (约 $5.4/月，无长期绑定套路)"
-  payments: "现金信封, 门罗币 (XMR), 比特币, 信用卡, PayPal"
+  payments: "实体现金邮寄 (极客专属), 门罗币 (XMR), 比特币, 信用卡, PayPal"
   devices_limit: "5 台设备"
   authority_rating: "PrivacyGuides 终极推崇 / 极客公认隐私天花板"
   affiliate_link: "https://go.yourdomain.com/mullvad"
