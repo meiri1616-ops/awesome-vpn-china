@@ -183,7 +183,7 @@
 
 如果这份指南帮到了你，欢迎随手分享给正在寻找稳定跨境网络、准备出海或远程办公的伙伴：
 
-[![Share on X](https://img.shields.io/badge/Share_on-X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/intent/tweet?text=超详细的跨境网络与VPN量化天梯榜（基于开源审计与抗阻断协议实测），推荐收藏备用：&url=https://github.com/YOUR_USERNAME/awesome-vpn-china&hashtags=VPN,科学上网,数字游民)
+[![Share on X](https://img.shields.io/badge/Share_on-X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/intent/tweet?text=超详细的跨境网络与VPN量化天梯榜（基于开源审计与抗阻断协议实测），推荐收藏备用：&url=https://github.com/meiri1616-ops/awesome-vpn-china&hashtags=VPN,科学上网,数字游民)
 [![Share on Telegram](https://img.shields.io/badge/Share_on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/share/url?url=https://github.com/YOUR_USERNAME/awesome-vpn-china&text=2026跨境网络与商业VPN天梯榜（支持开源客户端与混淆协议）)
 [![Share on Reddit](https://img.shields.io/badge/Share_on-Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/submit?url=https://github.com/YOUR_USERNAME/awesome-vpn-china&title=2026年跨境网络与科学上网TOP10量化天梯榜)
 
