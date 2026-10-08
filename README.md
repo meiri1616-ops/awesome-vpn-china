@@ -7,7 +7,7 @@
 
 <!-- 多语言切换栏 -->
 **Language / 语言切换**:  
-[ 🇨🇳 简体中文 (当前) ](./README.md) · [ 🇺🇸 English ](./README_en.md) · [ 🇯🇵 日本語 ](./README_ja.md) · 🇪🇸 Español *(Soon)* · 🇩🇪 Deutsch *(Soon)*
+[ 🇨🇳 简体中文 (当前) ](./README.md) · [ 🇭🇰/🇹🇼 繁體中文 ](./README_zh-TW.md) · [ 🇺🇸 English ](./README_en.md) · [ 🇯🇵 日本語 ](./README_ja.md) · [ 🇩🇪 Deutsch ](./README_de.md) · [ 🇪🇸 Español ](./README_es.md)
 
 <br>
 
