@@ -53,3 +53,14 @@
 
 ## 🤝 免責事項 (Disclaimer)
 本リポジトリの内容は、学術研究、国境を越えたリモートワーク、および合法的通信の最適化を目的としています。
+
+
+---
+
+## 📢 お役に立ちましたら、ぜひシェアをお願いします！
+
+[![Share on X](https://img.shields.io/badge/Share_on-X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/intent/tweet?text=【2026年最新】VPNおすすめ総合ランキングTOP10（第三者監査・速度・難読化プロトコル比較）まとめ：%20&url=https://github.com/meiri1616-ops/awesome-vpn-china/blob/main/README_ja.md&hashtags=VPN,セキュリティ,リモートワーク)
+[![Share on Telegram](https://img.shields.io/badge/Share_on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/share/url?url=https://github.com/meiri1616-ops/awesome-vpn-china/blob/main/README_ja.md&text=2026年版%20VPNおすすめ総合ランキングTOP10)
+[![Share on Reddit](https://img.shields.io/badge/Share_on-Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/submit?url=https://github.com/meiri1616-ops/awesome-vpn-china/blob/main/README_ja.md&title=VPNおすすめ総合ランキングTOP10%20(2026年最新版))
+
+> 💬 **公式 Telegram速報**：障害速報・割引情報はこちら 👉 **[@awesomevpnchina](https://t.me/awesomevpnchina)**
