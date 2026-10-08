@@ -57,3 +57,13 @@
 - Report scams or offline services via [GitHub Issues](../../issues).
 - Please review [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting Pull Requests.
 - **Disclaimer**: This directory is strictly intended for scientific research, international remote collaboration, and legal cross-border travel purposes.
+
+---
+
+## 📢 Found this helpful? Share it with your peers!
+
+[![Share on X](https://img.shields.io/badge/Share_on-X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/intent/tweet?text=Top%2010%20Quantified%20VPN%20Leaderboard%20(2026/2027)%20-%20Independent%20audits,%20speed%20benchmarks%20and%20obfuscation%20tech%20for%20remote%20engineers:%20&url=https://github.com/meiri1616-ops/awesome-vpn-china/blob/main/README_en.md&hashtags=VPN,Privacy,CyberSecurity,RemoteWork)
+[![Share on Telegram](https://img.shields.io/badge/Share_on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/share/url?url=https://github.com/meiri1616-ops/awesome-vpn-china/blob/main/README_en.md&text=Top%2010%20Quantified%20VPN%20Leaderboard%20for%20Digital%20Nomads%20%26%20Developers)
+[![Share on Reddit](https://img.shields.io/badge/Share_on-Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/submit?url=https://github.com/meiri1616-ops/awesome-vpn-china/blob/main/README_en.md&title=Top%2010%20Quantified%20VPN%20Directory%20(2026/2027))
+
+> 💬 **Official Telegram Broadcast**: Join 👉 **[@awesomevpnchina](https://t.me/awesomevpnchina)** for real-time censorship & speed reports.
