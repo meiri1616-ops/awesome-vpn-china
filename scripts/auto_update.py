@@ -169,3 +169,57 @@ def build_readme():
 
 if __name__ == "__main__":
     build_readme()
+
+# === 新增：同步生成英文版 README_en.md ===
+    readme_en_template = f"""<div align="center">
+
+# 🌐 Top 10 Best VPNs & Anti-Censorship Directory (2026/2027)
+
+> **Quantified Leaderboard Based on Independent Security Audits, Authority Ratings, Obfuscation Tech, and Speed.**  
+> Curated for digital nomads, cross-border remote engineers, and privacy advocates.
+
+**Language / 语言切换**:  
+[ 🇨🇳 简体中文 ](./README.md) · [ 🇺🇸 English (Current) ](./README_en.md) · [ 🇪🇸 Español ](./README_es.md) · [ 🇯🇵 日本語 ](./README_ja.md) · [ 🇩🇪 Deutsch ](./README_de.md)
+
+<br>
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Telegram Broadcast](https://img.shields.io/badge/Telegram-Intel_Briefing-2CA5E0?logo=telegram&logoColor=white)](https://t.me/awesomevpnchina)
+
+</div>
+
+---
+
+<!-- AI_MONTHLY_START -->
+> 🕒 **Monthly Security Brief ({current_date})**: {ai_brief}  
+> *Core Versions*: `Sing-box: {singbox_ver}` | `Clash Verge Rev: {clash_ver}`
+<!-- AI_MONTHLY_END -->
+
+## 📊 Top 10 Quantified VPN Matrix
+
+> 📐 **Scoring Model**: Security & Audits (30%) + Anti-Censorship/Obfuscation (25%) + Real Speed (20%) + Payment Privacy (15%) + Price/Value (10%).
+
+| Rank / Provider | Score | Authority Endorsement | Proprietary Protocols | Pricing | Payment Options | Official Portal |
+| :--- | :---: | :--- | :--- | :--- | :--- | :--- |
+{table_content}
+
+---
+
+## 🔍 Detailed Provider Breakdown
+
+{cards_content}
+
+## 🛠️ Open Source Client Recommendation
+
+* **Sing-box**: Next-generation universal proxy platform.
+* **Clash Verge Rev**: Cross-platform open-source desktop client.
+
+---
+
+## 🤝 Community & Disclaimer
+- Please review [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting Pull Requests.
+"""
+    with open("README_en.md", "w", encoding="utf-8") as f:
+        f.write(readme_en_template)
+
+    print("README.md 和 README_en.md 均已成功更新！双语就绪。")
