@@ -5,6 +5,27 @@
 > **基于权威科技媒体年度评级、开源隐私安全审计、穿透算法加权与自动化健康监测**  
 > 专为中国大陆出海从业者、跨境远程办公、海外学者及极客量身打造
 
+<!-- 多语言切换栏开始 -->
+**Language / 语言切换**:  
+[ 🇨🇳 简体中文 (当前) ](./README.md) · [ 🇺🇸 English ](./README_en.md) · [ 🇪🇸 Español ](./README_es.md) · [ 🇯🇵 日本語 ](./README_ja.md) · [ 🇩🇪 Deutsch ](./README_de.md)
+<!-- 多语言切换栏结束 -->
+
+<br>
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-跨境网络情报局-2CA5E0?logo=telegram&logoColor=white)](https://t.me/awesomevpnchina)
+
+[💬 订阅官方 Telegram 频道 (实时节点失效/官方大促通报)](https://t.me/awesomevpnchina)
+
+</div>
+
+<div align="center">
+
+# 🌐 跨境网络与科学上网全景指南 (TOP 10 天梯榜)
+
+> **基于权威科技媒体年度评级、开源隐私安全审计、穿透算法加权与自动化健康监测**  
+> 专为中国大陆出海从业者、跨境远程办公、海外学者及极客量身打造
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Telegram Channel](https://img.shields.io/badge/Telegram-跨境网络情报局-2CA5E0?logo=telegram&logoColor=white)](https://t.me/awesomevpnchina)
 
