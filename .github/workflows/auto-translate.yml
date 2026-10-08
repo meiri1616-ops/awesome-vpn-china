@@ -1,0 +1,39 @@
+name: Auto Multi-Language Sync
+
+on:
+  workflow_dispatch: # 支持后台手动点击一键运行
+  push:
+    paths:
+      - 'README.md' # 只有当你修改了主中文文档时，才会自动触发翻译
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests
+
+      - name: Run Auto Translation
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python scripts/auto_translate.py
+
+      - name: Commit and Push Translated Files
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README_*.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "docs: auto-sync multi-language versions via Gemini [skip ci]" && git push)
